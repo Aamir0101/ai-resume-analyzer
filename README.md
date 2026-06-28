@@ -8,7 +8,7 @@ A full-stack AI-powered resume analyser with ATS scoring, skill gap analysis, an
 |---|---|
 | Frontend | React 18 + Vite |
 | Backend | Node.js + Express.js |
-| AI | Google Gemini 1.5 Flash |
+| AI | Google Gemini 3.5 Flash |
 | PDF Parsing | pdf-parse (Node.js) |
 | Database | MongoDB + Mongoose |
 | Deployment | Render + MongoDB Atlas |
