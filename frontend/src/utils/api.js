@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://resume-analyser-backend-production-b331.up.railway.app//api',
+  baseURL: 'https://resume-analyser-backend-production-b331.up.railway.app/api',
   timeout: 120000 // 2 min for AI calls
 });
 
