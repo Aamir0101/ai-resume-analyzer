@@ -167,4 +167,4 @@ resume-analyser/
 - Resumes are auto-deleted from MongoDB after 24 hours (TTL index)
 - Only PDF files are accepted (max 5MB)
 - Scanned/image PDFs may not extract correctly — text-based PDFs work best
-- Gemini 1.5 Flash is used for speed and cost efficiency
+- Gemini 3.5 Flash is used for speed and cost efficiency
