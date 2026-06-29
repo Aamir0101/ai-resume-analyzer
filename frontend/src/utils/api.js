@@ -26,5 +26,5 @@ export async function rewriteResume(resumeId) {
 }
 
 export function getDownloadUrl(resumeId) {
-  return `/api/analysis/download/${resumeId}`;
+  return `${baseURL}/api/analysis/download/${resumeId}`;
 }
