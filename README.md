@@ -11,7 +11,7 @@ A full-stack AI-powered resume analyser with ATS scoring, skill gap analysis, an
 | AI | Google Gemini 3.5 Flash |
 | PDF Parsing | pdf-parse (Node.js) |
 | Database | MongoDB + Mongoose |
-| Deployment | Render + MongoDB Atlas |
+| Deployment | Railway + MongoDB Atlas |
 
 ## Features
 
@@ -82,12 +82,12 @@ npm run dev
 
 ---
 
-## Deployment on Render
+## Deployment on Railway
 
 ### Backend
 
 1. Push code to GitHub
-2. Create a new **Web Service** on Render
+2. Create a new **Web Service** on Railway
 3. Connect your repository
 4. Set:
    - **Build Command:** `npm install --prefix backend`
@@ -107,7 +107,7 @@ npm run dev
    - **Build command:** `npm run build`
    - **Publish directory:** `frontend/dist`
 4. Add environment variable:
-   - `VITE_API_URL=https://your-render-backend.onrender.com`
+   - `VITE_API_URL=https://your-railway-backend.up.railway.com`
 5. Update `frontend/src/utils/api.js` baseURL to use `import.meta.env.VITE_API_URL`
 
 ---
