@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Download, Copy, Check, Wand2 } from 'lucide-react';
+import { getDownloadUrl } from '../utils/api';
 
 export default function RewritePanel({ rewrittenResume, resumeId, onRewrite, loading }) {
   const [copied, setCopied] = useState(false);
@@ -11,7 +12,7 @@ export default function RewritePanel({ rewrittenResume, resumeId, onRewrite, loa
   };
 
   const handleDownload = () => {
-    window.open(`/api/analysis/download/${resumeId}`, '_blank');
+  window.open(getDownloadUrl(resumeId), '_blank');
   };
 
   if (!rewrittenResume) {
