@@ -26,5 +26,5 @@ export async function rewriteResume(resumeId) {
 }
 
 export function getDownloadUrl(resumeId) {
-  return `${baseURL}/api/analysis/download/${resumeId}`;
+  return `https://resume-analyser-backend-production-b331.up.railway.app/api/analysis/download/${resumeId}`;
 }
